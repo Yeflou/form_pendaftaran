@@ -31,7 +31,7 @@ class BerandaPage extends StatelessWidget {
               Icon(
                 Icons.home,
                 size: 80,
-                color: Colors.blue,
+                color: Colors.deepPurple,
               ),
               SizedBox(height: 20),
               Text(
