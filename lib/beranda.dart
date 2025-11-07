@@ -7,7 +7,7 @@ class BerandaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Silahkan Isi Form Pendaftaran'),
+        title: const Text('Beranda Page'),
         backgroundColor: Colors.deepPurple,
         foregroundColor: Colors.white,
       ),
