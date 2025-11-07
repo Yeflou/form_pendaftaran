@@ -40,8 +40,25 @@ class FormDaftar extends StatefulWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title: const Text('Silahkan Isi Form Pendaftaran'),
+          backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white,
+      ),
+    
       body: Center(
+        child: Container(
+          decoration: BoxDecoration(
+        gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Color.fromARGB(255, 255, 255, 255), // Very light blue
+                  Color.fromARGB(255, 248, 221, 255), // Light blue
+                ],
+              ),
+          ), 
+    
         child: Padding(
           padding: EdgeInsets.all(18),
           child: Form(
@@ -145,6 +162,7 @@ class FormDaftar extends StatefulWidget {
           ),
         ),
       ),
+      )
     );
   } 
 }
